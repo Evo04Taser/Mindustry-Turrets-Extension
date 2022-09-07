@@ -5,3 +5,46 @@ shootCone: 5
 warmupSpeed: 1
 minWarmup: 3
 heatColor: ff7f31
+size: 2
+range: 270
+coolantMultiplier: 3
+spread: 1
+health: 300
+inaccuracy: 3
+shootSound: shoot
+ammoTypes: {
+  graphite: {
+    type: BasicBulletType 
+    damage: 10
+    ammoPerShot: 2
+    reloadMultiplier: 0.8
+    shootEffect: shootSmall 
+    speed: 17
+    lifetime: 35
+    pierce: false
+  }
+  scrap: {
+  damage: 12
+  reloadMultiplier: 0.7
+  shootEffect: shootBig
+  lifetime: 30
+  speed: 25
+  pierceCap: 4
+  pierceBuildings: true
+  pierce: true 
+  armorPiercing: true
+  }
+  tungsten: {
+  damage: 47
+  pierce: true 
+  armorPiercing: false
+  pierceCap: 4
+  pierceBuildings: true
+  reloadMultiplier: 0.9
+  shootEffect: shootBig2 
+  speed: 18
+  lifetime: 27
+  ammoPerShot: 5
+  }
+}
+    
