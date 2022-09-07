@@ -1,7 +1,7 @@
 type: ItemTurret 
 name: Minigun 
 description: Moderate damage, very fast attack speed, slow turning speed, High range. Useless to fast enemies.
-reload: 0.3
+reload: 1
 shootCone: 10
 rotateSpeed: 2
 heatColor: ff7f31
@@ -41,7 +41,7 @@ ammoTypes: {
     width: 1
     length: 6
   }
-  tungsten: {
+  lead: {
     damage: 47
     pierce: true 
     armorPiercing: false

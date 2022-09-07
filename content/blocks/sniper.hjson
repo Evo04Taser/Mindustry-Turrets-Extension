@@ -1,0 +1,63 @@
+type: ItemTurret 
+name: Sniper
+description: High damage, low attack speed, slow turning speed, Very high range. Useless to fast enemies.
+reload: 120
+shootCone: 0.1
+rotateSpeed: 2
+heatColor: ff7f31
+size: 2
+range: 810
+coolantMultiplier: 2.5
+spread: 0
+health: 370
+inaccuracy: 0
+shootSound: shootBig
+outlineIcon: false
+maxAmmo: 10
+ammoTypes: {
+  silicon: {
+    type: BasicBulletType 
+    damage: 800
+    ammoMultiplier: 500
+    reloadMultiplier: 2
+    shootEffect: shootSmall 
+    speed: 30
+    lifetime: 45
+    pierce: false
+    width: 3
+    length: 7
+  }
+    metaglass: {
+    damage: 870
+    reloadMultiplier: 0.6
+    ammoMultiplier: 1
+    shootEffect: shootBig
+    lifetime: 38
+    speed: 28
+    pierceCap: 2
+    pierceBuildings: true
+    pierce: true 
+    armorPiercing: false
+    width: 3
+    length: 8
+  }
+  titanium: {
+    damage: 1300
+    pierce: true 
+    armorPiercing: true
+    pierceCap: 1
+    pierceBuildings: true
+    reloadMultiplier: 0.8
+    shootEffect: shootBig2 
+    speed: 23
+    lifetime: 40
+    ammoMultiplier: 2
+    width: 3
+    length: 11
+  }
+}
+requirements: [
+  titanium/27
+  silicon/73
+  plastanium/19
+]
