@@ -1,0 +1,7 @@
+type: ItemTurret 
+name: Minigun 
+reloadTime: 4
+shootCone: 5
+warmupSpeed: 1
+minWarmup: 3
+heatColor: ff7f31
