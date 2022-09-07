@@ -47,4 +47,8 @@ ammoTypes: {
   ammoPerShot: 5
   }
 }
-    
+requirements: [
+  titanium/12
+  silicon/31
+  plastanium/4
+]
