@@ -53,7 +53,7 @@ ammoTypes: {
     pierceCap: 1
     pierceBuildings: true
     reloadMultiplier: 1.7
-    shootEffect: shootsmall
+    shootEffect: shootSmall
     speed: 13
     lifetime: 28
     ammoMultiplier: 1
