@@ -11,7 +11,7 @@ coolantMultiplier: 3
 shoot: {
   spread: 2
 }
-health: 300
+health: 2130
 inaccuracy: 0
 shootSound: shootBig
 outlineIcon: false

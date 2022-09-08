@@ -8,7 +8,7 @@ heatColor: ff7f31
 size: 2
 range: 85
 coolantMultiplier: 5
-health: 500
+health: 2340
 cooldownTime: 50
 shoot: {
   spread: 31
