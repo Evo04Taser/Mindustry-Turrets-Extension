@@ -1,18 +1,18 @@
 type: ItemTurret 
 name: Sniper
 description: High damage, low attack speed, slow turning speed, Very high range.
-reload: 3120
+reload: 120
 shootCone: 0.1
 rotateSpeed: 2
 heatColor: ff7f31
 size: 2
 range: 810
 coolantMultiplier: 2.5
-health: 370
+health: 2730
 inaccuracy: 0
 shootSound: boom
 outlineIcon: false
-maxAmmo: 10
+maxAmmo: 20
 targetInterval: 21.7
 cooldownTime: 130
 ammoTypes: {

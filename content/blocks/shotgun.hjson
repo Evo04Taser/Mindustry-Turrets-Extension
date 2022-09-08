@@ -11,8 +11,9 @@ coolantMultiplier: 5
 health: 2340
 cooldownTime: 50
 shoot: {
-  spread: 31
-  shots: 13
+  type: ShootSpread
+  spread: 1
+  shots: 17
 }
 inaccuracy: 2
 shootSound: shootBig
