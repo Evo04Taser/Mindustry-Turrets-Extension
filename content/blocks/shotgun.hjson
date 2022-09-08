@@ -1,0 +1,71 @@
+type: ItemTurret 
+name: Shotgun 
+description: Moderate damage, medium attack speed, medium turning speed, small range.
+reload: 20
+shootCone: 6
+rotateSpeed: 4
+heatColor: ff7f31
+size: 2
+range: 85
+coolantMultiplier: 5
+spread: 13
+health: 500
+inaccuracy: 2
+shootSound: shootBig
+outlineIcon: false
+maxAmmo: 30
+consumeAmmoOnce: true
+targetInterval: 0.7
+shots: 7
+ammoTypes: {
+  copper: {
+    type: BasicBulletType 
+    damage: 11
+    ammoMultiplier: 3
+    reloadMultiplier: 1.1
+    shootEffect: shootSmall 
+    speed: 12
+    lifetime: 30
+    pierce: false
+    width: 1
+    length: 5
+  }
+    thorium: {
+      type: BasicBulletType
+      damage: 17
+      reloadMultiplier: 0.8
+      ammoMultiplier: 1
+      shootEffect: shootBig2
+      lifetime: 27
+      speed: 19
+      pierceCap: 3
+      pierceBuildings: true
+      pierce: true 
+      armorPiercing: true
+      width: 2
+      length: 6
+  }
+  plastanium: {
+    type: BasicBulletType
+    damage: 21
+    pierce: true 
+    armorPiercing: false
+    pierceCap: 1
+    pierceBuildings: true
+    reloadMultiplier: 1.7
+    shootEffect: shootsmall
+    speed: 13
+    lifetime: 28
+    ammoMultiplier: 1
+    width: 2
+    length: 9
+  }
+}
+requirements: [
+  titanium/29
+  copper/80
+  silicon/33
+  plastanium/3
+]
+research: fuse
+category: turret
