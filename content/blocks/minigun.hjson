@@ -8,7 +8,9 @@ heatColor: ff7f31
 size: 2
 range: 310
 coolantMultiplier: 3
-spread: 1
+shoot: {
+  spread: 2
+}
 health: 300
 inaccuracy: 0
 shootSound: shootBig
@@ -24,6 +26,7 @@ ammoTypes: {
     shootEffect: shootSmall 
     speed: 17
     lifetime: 35
+    ammoUseEffect: casing1
     pierce: false
     width: 2
     length: 7
@@ -41,6 +44,7 @@ ammoTypes: {
       pierce: true 
       armorPiercing: true
       width: 1
+      ammoUseEffect: casing1
       length: 6
   }
   lead: {
@@ -56,6 +60,7 @@ ammoTypes: {
     lifetime: 27
     ammoMultiplier: 300
     width: 3
+    ammoUseEffect: casing1
     length: 9
   }
 }

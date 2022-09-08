@@ -1,22 +1,24 @@
 type: ItemTurret 
 name: Shotgun 
 description: Moderate damage, medium attack speed, medium turning speed, small range.
-reload: 20
-shootCone: 6
+reload: 60
+shootCone: 17
 rotateSpeed: 4
 heatColor: ff7f31
 size: 2
 range: 85
 coolantMultiplier: 5
-spread: 13
 health: 500
+cooldownTime: 50
+shoot: {
+  spread: 31
+  shots: 13
+}
 inaccuracy: 2
 shootSound: shootBig
 outlineIcon: false
 maxAmmo: 30
-consumeAmmoOnce: true
 targetInterval: 0.7
-shots: 7
 ammoTypes: {
   copper: {
     type: BasicBulletType 
