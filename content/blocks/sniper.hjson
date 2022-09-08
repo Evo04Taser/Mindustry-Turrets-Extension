@@ -1,6 +1,6 @@
 type: ItemTurret 
 name: Sniper
-description: High damage, low attack speed, slow turning speed, Very high range. Useless to fast enemies.
+description: High damage, low attack speed, slow turning speed, Very high range.
 reload: 140
 shootCone: 0.1
 rotateSpeed: 2
@@ -14,11 +14,12 @@ inaccuracy: 0
 shootSound: boom
 outlineIcon: false
 maxAmmo: 10
+targetInterval: 21.7
 ammoTypes: {
   silicon: {
     type: BasicBulletType 
     damage: 800
-    ammoMultiplier: 500
+    ammoMultiplier: 1
     reloadMultiplier: 2
     shootEffect: shootSmall 
     speed: 30
@@ -76,3 +77,5 @@ requirements: [
   plastanium/19
   phase-fabric/3
 ]
+research: foreshadow
+category: turret 

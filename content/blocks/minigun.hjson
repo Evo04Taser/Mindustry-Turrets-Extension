@@ -1,6 +1,6 @@
 type: ItemTurret 
 name: Minigun 
-description: Moderate damage, very fast attack speed, slow turning speed, High range. Useless to fast enemies.
+description: Moderate damage, very fast attack speed, slow turning speed, High range.
 reload: 1
 shootCone: 10
 rotateSpeed: 2
@@ -13,12 +13,13 @@ health: 300
 inaccuracy: 0
 shootSound: shootBig
 outlineIcon: false
-maxAmmo: 3000
+maxAmmo: 600
+targetInterval: 1.2
 ammoTypes: {
   graphite: {
     type: BasicBulletType 
     damage: 10
-    ammoMultiplier: 500
+    ammoMultiplier: 200
     reloadMultiplier: 0.8
     shootEffect: shootSmall 
     speed: 17
@@ -31,7 +32,7 @@ ammoTypes: {
       type: BasicBulletType
       damage: 12
       reloadMultiplier: 0.7
-      ammoMultiplier: 400
+      ammoMultiplier: 150
       shootEffect: shootBig
       lifetime: 30
       speed: 25
@@ -53,7 +54,7 @@ ammoTypes: {
     shootEffect: shootBig2 
     speed: 18
     lifetime: 27
-    ammoMultiplier: 700
+    ammoMultiplier: 300
     width: 3
     length: 9
   }
@@ -63,3 +64,5 @@ requirements: [
   silicon/31
   plastanium/4
 ]
+research: spectre
+category: turret
