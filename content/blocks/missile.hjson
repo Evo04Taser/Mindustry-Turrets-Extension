@@ -1,0 +1,59 @@
+type: ItemTurret 
+name: Missile
+description: High damage, low attack speed, slow turning speed, Extremely high range.
+reload: 140
+shootCone: 0.1
+rotateSpeed: 2
+heatColor: ff7f31
+size: 2
+minRange: 105
+range: 1030
+coolantMultiplier: 2.5
+health: 3170
+inaccuracy: 0
+shootSound: explosion
+outlineIcon: false
+maxAmmo: 5
+targetInterval: 21.7
+cooldownTime: 130
+ammoTypes: {
+  blast-compound: {
+    type: BasicBulletType 
+    damage: 570
+    splashDamageRadius: 37
+    splashDamage: 920
+    ammoMultiplier: 1
+    reloadMultiplier: 2
+    shootEffect: shootSmall 
+    speed: 30
+    lifetime: 45
+    pierce: false
+    width: 4
+    ammoUseEffect: none
+    length: 17
+    sprite: missile
+  }
+    silicon: {
+    type: BasicBulletType
+    damage: 1270
+    homingPower: 17
+    homingRange: 70
+    reloadMultiplier: 0.6
+    ammoMultiplier: 1
+    shootEffect: shootBig
+    lifetime: 41
+    speed: 28
+    width: 4
+    length: 21
+    ammoUseEffect: casing2
+    sprite: missile
+  }
+}
+requirements: [
+  titanium/27
+  silicon/73
+  plastanium/19
+  phase-fabric/3
+]
+research: swarmer
+category: turret 
