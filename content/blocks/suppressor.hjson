@@ -1,7 +1,7 @@
 type: ItemTurret 
 name: Suppressor
 description: Moderate damage, medium attack speed, medium range.
-reload: 45
+reload: 85
 shootCone: 360
 rotateSpeed: 4
 heatColor: ff7f31
@@ -9,12 +9,15 @@ size: 2
 range: 115
 coolantMultiplier: 2
 health: 1360
-cooldownTime: 40
+cooldownTime: 70
 inaccuracy: 2
 shootSound: shootBig
 outlineIcon: false
 maxAmmo: 30
 targetInterval: 0.7
+shootX: 0
+shootY: 0
+recoil: 0
 ammoTypes: {
   blast-compound: {
     type: BasicBulletType 
@@ -23,7 +26,7 @@ ammoTypes: {
     splashDamageRadius: 10
     ammoMultiplier: 1
     reloadMultiplier: 2.3
-    shootEffect: shootBig2
+    shootEffect: blastExplosion
     speed: 0
     lifetime: 1
     pierce: false
@@ -47,7 +50,7 @@ ammoTypes: {
     splashDamageRadius: 12
     reloadMultiplier: 1.3
     ammoMultiplier: 1
-    shootEffect: shootBig2    
+    shootEffect: blastExplosion 
     lifetime: 1
     speed: 1
     pierceCap: 3
