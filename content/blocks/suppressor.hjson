@@ -3,7 +3,7 @@ name: Suppressor
 description: Moderate damage, medium attack speed, medium range.
 reload: 85
 shootCone: 360
-rotateSpeed: 4
+rotateSpeed: 0
 heatColor: ff7f31
 size: 2
 range: 115
