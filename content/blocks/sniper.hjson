@@ -10,7 +10,7 @@ range: 810
 coolantMultiplier: 2.5
 health: 2730
 inaccuracy: 0
-shootSound: boom
+shootSound: bang
 outlineIcon: false
 maxAmmo: 20
 targetInterval: 21.7

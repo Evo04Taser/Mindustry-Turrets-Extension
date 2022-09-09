@@ -11,7 +11,7 @@ coolantMultiplier: 2
 health: 1360
 cooldownTime: 70
 inaccuracy: 2
-shootSound: shootBig
+shootSound: boom
 outlineIcon: false
 maxAmmo: 30
 targetInterval: 0.7

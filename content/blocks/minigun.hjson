@@ -14,6 +14,9 @@ shootSound: shootBig
 outlineIcon: false
 maxAmmo: 600
 targetInterval: 1.2
+recoil: 4
+recoilTime: 40
+shootX: 1
 ammoTypes: {
   graphite: {
     type: BasicBulletType 
