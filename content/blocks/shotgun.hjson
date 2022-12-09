@@ -12,7 +12,7 @@ health: 2340
 cooldownTime: 50
 shoot: {
   type: ShootSpread
-  spread: 1
+  spread: 3
   shots: 17
 }
 inaccuracy: 2

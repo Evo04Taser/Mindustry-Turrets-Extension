@@ -1,0 +1,64 @@
+type: ItemTurret 
+name: Railgun
+description: Very high damage, very low attack speed, medium turning speed, high range.
+reload: 220
+shootCone: 0.3
+rotateSpeed: 7
+heatColor: ff7f31
+size: 2
+range: 780
+coolantMultiplier: 1.5
+health: 4180
+inaccuracy: 0
+shootSound: artillery
+outlineIcon: false
+maxAmmo: 3
+targetInterval: 27
+cooldownTime: 165
+ammoTypes: {
+  blast-compound: {
+    type: BasicBulletType 
+    damage: 675
+    splashDamageRadius: 45
+    splashDamage: 1195
+    ammoMultiplier: 1
+    reloadMultiplier: 1.7
+    shootEffect: shootSmall 
+    speed: 70
+    lifetime: 25
+    pierce: false
+    width: 6
+    ammoUseEffect: none
+    length: 14
+    sprite: missile
+  }
+    scrap: {
+    type: BasicBulletType
+    damage: 2710
+    homingPower: 17
+    homingRange: 70
+    reloadMultiplier: 0.8
+    ammoMultiplier: 1
+    shootEffect: shootSmall
+    lifetime: 20
+    speed: 100
+    width: 3
+    length: 21
+    pierce: true
+    pierceBuildings: true
+    pierceCap: 7
+    ammoUseEffect: none
+    sprite: missile
+  }
+}
+consumes: {
+  power: 5
+}
+requirements: [
+  titanium/37
+  silicon/112
+  plastanium/23
+  phase-fabric/8
+]
+research: missile
+category: turret 
