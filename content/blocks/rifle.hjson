@@ -14,13 +14,13 @@ shootSound: shootBig
 outlineIcon: false
 maxAmmo: 30
 targetInterval: 1.2
-recoil: 4
-recoilTime: 40
+recoil: 2
+recoilTime: 15
 shootX: 0
 ammoTypes: {
   graphite: {
     type: BasicBulletType 
-    damage: 10
+    damage: 21
     ammoMultiplier: 4
     reloadMultiplier: 0.8
     shootEffect: shootSmall 
@@ -33,7 +33,7 @@ ammoTypes: {
   }
     scrap: {
       type: BasicBulletType
-      damage: 24
+      damage: 37
       reloadMultiplier: 0.7
       ammoMultiplier: 7
       shootEffect: shootBig
@@ -49,7 +49,7 @@ ammoTypes: {
   }
   lead: {
     type: BasicBulletType
-    damage: 8
+    damage: 18
     pierce: true 
     armorPiercing: false
     pierceCap: 4
@@ -65,9 +65,9 @@ ammoTypes: {
   }
 }
 requirements: [
-  titanium/4
-  silicon/27
-  plastanium/6
+  titanium/200
+  silicon/100
+  plastanium/100
 ]
-research: duo
+research: spectre
 category: turret

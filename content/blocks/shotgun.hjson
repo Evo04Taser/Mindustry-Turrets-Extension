@@ -23,7 +23,7 @@ targetInterval: 0.7
 ammoTypes: {
   copper: {
     type: BasicBulletType 
-    damage: 11
+    damage: 27
     ammoMultiplier: 3
     reloadMultiplier: 1.1
     shootEffect: shootSmall 
@@ -35,7 +35,7 @@ ammoTypes: {
   }
     thorium: {
       type: BasicBulletType
-      damage: 17
+      damage: 41
       reloadMultiplier: 0.8
       ammoMultiplier: 1
       shootEffect: shootBig2
@@ -50,12 +50,12 @@ ammoTypes: {
   }
   plastanium: {
     type: BasicBulletType
-    damage: 21
+    damage: 34
     pierce: true 
     armorPiercing: false
     pierceCap: 1
     pierceBuildings: true
-    reloadMultiplier: 1.7
+    reloadMultiplier: 1.4
     shootEffect: shootSmall
     speed: 13
     lifetime: 28
@@ -65,10 +65,10 @@ ammoTypes: {
   }
 }
 requirements: [
-  titanium/29
-  copper/80
-  silicon/33
-  plastanium/3
+  titanium/100
+  copper/300
+  silicon/100
+  plastanium/50
 ]
 research: fuse
 category: turret

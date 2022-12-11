@@ -65,9 +65,10 @@ ammoTypes: {
   }
 }
 requirements: [
-  titanium/12
-  silicon/31
-  plastanium/4
+  titanium/500
+  thorium/350
+  silicon/250
+  plastanium/200
 ]
 research: spectre
 category: turret

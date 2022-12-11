@@ -19,11 +19,11 @@ cooldownTime: 130
 ammoTypes: {
   blast-compound: {
     type: BasicBulletType 
-    damage: 570
+    damage: 230
     splashDamageRadius: 37
-    splashDamage: 920
+    splashDamage: 970
     ammoMultiplier: 1
-    reloadMultiplier: 2
+    reloadMultiplier: 1.7
     shootEffect: shootSmall 
     speed: 30
     lifetime: 45
@@ -32,17 +32,19 @@ ammoTypes: {
     ammoUseEffect: none
     length: 17
     sprite: missile
+    status: blasted
+    statusDuration: 150
   }
     silicon: {
     type: BasicBulletType
-    damage: 1270
+    damage: 1620
     homingPower: 17
     homingRange: 70
-    reloadMultiplier: 0.6
+    reloadMultiplier: 0.7
     ammoMultiplier: 1
     shootEffect: shootBig
-    lifetime: 41
-    speed: 28
+    lifetime: 62
+    speed: 17
     width: 4
     length: 21
     ammoUseEffect: casing2
@@ -50,10 +52,10 @@ ammoTypes: {
   }
 }
 requirements: [
-  titanium/27
-  silicon/73
-  plastanium/19
-  phase-fabric/3
+  titanium/40
+  silicon/75
+  plastanium/70
+  phase-fabric/10
 ]
 research: swarmer
 category: turret 
