@@ -1,0 +1,70 @@
+type: ItemTurret
+name: Pistol
+description: Low damage, medium attack speed, fast turning speed, small range.
+reload: 13
+rotateSpeed: 21
+heatColor: ff7f31
+size: 1
+range: 125
+coolantMultiplier: 2.7
+health: 780
+inaccuracy: 4
+shootSound: shoot
+shootCone: 10
+outlineIcon: false
+maxAmmo: 15
+targetInterval: 0.7
+recoil: 1
+recoilTime: 5
+shootX: 0
+ammoTypes: {
+  phase-fabric: {
+    type: BasicBulletType 
+    damage: 9
+    ammoMultiplier: 1
+    reloadMultiplier: 2.3
+    shootEffect: shootSmallSmoke
+    speed: 5
+    lifetime: 24
+    ammoUseEffect: none
+    pierce: false
+    width: 4
+    length: 7
+    status: unmoving
+    statusDuration: 70
+  }
+    scrap: {
+      type: BasicBulletType
+      damage: 23
+      reloadMultiplier: 0.7
+      ammoMultiplier: 2
+      shootEffect: shootSmall
+      lifetime: 11
+      speed: 13
+      pierceCap: 4
+      pierceBuildings: true
+      pierce: true 
+      width: 3
+      ammoUseEffect: none
+      length: 8
+  }
+  copper: {
+    type: BasicBulletType
+    damage: 16
+    reloadMultiplier: 1
+    shootEffect: shootSmall
+    speed: 7
+    lifetime: 20
+    ammoMultiplier: 2
+    width: 6
+    ammoUseEffect: casing1
+    length: 10
+  }
+}
+requirements: [
+  copper/120
+  lead/45
+  graphite/30
+]
+research: duo
+category: turret

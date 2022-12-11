@@ -1,0 +1,77 @@
+type: ItemTurret 
+name: Burst Rifle
+description: Moderate damage, spaced attack, normal turning speed, medium range.
+reload: 24
+shoot: {
+  shots: 5
+  shotDelay: 3
+}
+shootCone: 1
+rotateSpeed: 12
+heatColor: ff7f31
+size: 2
+range: 115
+coolantMultiplier: 2.2
+health: 1780
+inaccuracy: 7
+shootSound: shootBig
+outlineIcon: false
+maxAmmo: 30
+targetInterval: 1.2
+recoil: 2
+recoilTime: 15
+shootX: 0
+ammoTypes: {
+  graphite: {
+    type: BasicBulletType 
+    damage: 10
+    ammoMultiplier: 4
+    reloadMultiplier: 0.8
+    shootEffect: shootSmall 
+    speed: 18
+    lifetime: 24
+    ammoUseEffect: casing1
+    pierce: false
+    width: 4
+    length: 9
+  }
+    scrap: {
+      type: BasicBulletType
+      damage: 24
+      reloadMultiplier: 0.7
+      ammoMultiplier: 7
+      shootEffect: shootBig
+      lifetime: 17
+      speed: 23
+      pierceCap: 4
+      pierceBuildings: true
+      pierce: true 
+      armorPiercing: true
+      width: 3
+      ammoUseEffect: casing1
+      length: 8
+  }
+  lead: {
+    type: BasicBulletType
+    damage: 8
+    pierce: true 
+    armorPiercing: false
+    pierceCap: 4
+    pierceBuildings: false
+    reloadMultiplier: 1.1
+    shootEffect: shootBig2 
+    speed: 12
+    lifetime: 27
+    ammoMultiplier: 3
+    width: 6
+    ammoUseEffect: casing1
+    length: 11
+  }
+}
+requirements: [
+  titanium/65
+  silicon/70
+  plastanium/15
+]
+research: salvo
+category: turret
