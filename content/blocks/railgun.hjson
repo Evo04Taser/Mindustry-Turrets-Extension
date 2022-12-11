@@ -10,7 +10,7 @@ range: 780
 coolantMultiplier: 1.5
 health: 4180
 inaccuracy: 0
-shootSound: artillery
+shootSound: shootSmite
 outlineIcon: false
 maxAmmo: 3
 targetInterval: 27
