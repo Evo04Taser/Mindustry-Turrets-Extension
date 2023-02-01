@@ -1,6 +1,6 @@
 type: ItemTurret 
 name: Burst Rifle
-description: Moderate damage, spaced attack, normal turning speed, medium range.
+description: Fires rapidly in spaced intervals.
 reload: 24
 shoot: {
   shots: 5

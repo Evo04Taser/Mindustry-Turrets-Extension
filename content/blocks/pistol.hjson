@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Pistol
-description: Low damage, medium attack speed, fast turning speed, small range.
+description: Fires small bullets at enemies.
 reload: 13
 rotateSpeed: 21
 heatColor: ff7f31

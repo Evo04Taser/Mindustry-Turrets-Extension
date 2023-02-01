@@ -1,0 +1,72 @@
+type: ItemTurret 
+name: Particle Accelerating Cannon
+description: Fires particles at extremely high speeds.
+reload: 300
+shootCone: 2
+rotateSpeed: 2
+heatColor: ff7f31
+size: 2
+range: 850
+coolantMultiplier: 1.5
+health: 4180
+inaccuracy: 0
+shootSound: shootSmite
+outlineIcon: false
+maxAmmo: 3
+targetInterval: 27
+cooldownTime: 295
+ammoTypes: {
+  blast-compound: {
+    type: BasicBulletType 
+    damage: 2780
+    splashDamageRadius: 37
+    splashDamage: 1200
+    ammoMultiplier: 1
+    reloadMultiplier: 1
+    shootEffect: shootBig2
+    smokeEffect: shootBigSmoke2
+    speed: 120
+    lifetime: 8
+    pierce: false
+    width: 5
+    ammoUseEffect: none
+    length: 30
+    sprite: missile-large
+    status: blasted
+    statusDuration: 300
+  }
+    pyratite: {
+    type: BasicBulletType
+    damage: 2450
+    splashDamageRadius: 14
+    splashDamage: 1170
+    reloadMultiplier: 1
+    ammoMultiplier: 1
+    shootEffect: shootBig2
+    smokeEffect: shootBigSmoke2
+    lifetime: 8
+    speed: 120
+    width: 5
+    length: 30
+    pierce: false
+    ammoUseEffect: none
+    sprite: missile-large
+    status: burning
+    statusDuration: 750
+    incendChance: 1
+    incendSpread: 14
+    incendAmount: 2.7
+  }
+}
+consumes: {
+  power: 7.3
+}
+requirements: [
+  titanium/650
+  thorium/200
+  silicon/750
+  plastanium/350
+  phase-fabric/500
+]
+research: railgun
+category: turret

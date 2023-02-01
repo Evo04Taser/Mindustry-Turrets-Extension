@@ -1,6 +1,6 @@
 type: ItemTurret 
 name: Sniper
-description: High damage, low attack speed, slow turning speed, Very high range.
+description: Snipes enemies from very far distances.
 reload: 120
 shootCone: 0.1
 rotateSpeed: 2

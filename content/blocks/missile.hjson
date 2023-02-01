@@ -1,6 +1,6 @@
 type: ItemTurret 
 name: Missile
-description: High damage, low attack speed, slow turning speed, Extremely high range.
+description: Fires missiles at high speeds.
 reload: 140
 shootCone: 0.1
 rotateSpeed: 2

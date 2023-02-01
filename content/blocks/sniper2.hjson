@@ -1,0 +1,57 @@
+type: ItemTurret 
+name: Sniper w/ Scope
+description: Improved Sniper. Snipes enemies from farther distances and has more damage.
+reload: 180
+shootCone: 0.1
+rotateSpeed: 4
+heatColor: ff7f31
+size: 2
+range: 1150
+coolantMultiplier: 2.5
+health: 3170
+inaccuracy: 0
+shootSound: bolt
+outlineIcon: false
+maxAmmo: 20
+targetInterval: 21.7
+cooldownTime: 130
+shootX: -1
+ammoTypes: {
+  scrap: {
+    type: BasicBulletType 
+    damage: 1380
+    ammoMultiplier: 1
+    reloadMultiplier: 1
+    shootEffect: shootSmall 
+    speed: 60
+    lifetime: 20
+    pierce: true
+    width: 3
+    ammoUseEffect: casing2
+    length: 7
+  }
+    blast-compound: {
+    type: BasicBulletType
+    damage: 830
+    splashDamageRadius: 37
+    splashDamage: 190
+    reloadMultiplier: 0.7
+    ammoMultiplier: 1
+    shootEffect: shootSmall
+    lifetime: 20
+    speed: 60
+    width: 3
+    length: 8
+    ammoUseEffect: casing2
+    status: blasted
+    statusDuration: 30
+  }
+}
+requirements: [
+  titanium/350
+  silicon/700
+  plastanium/200
+  phase-fabric/250
+]
+research: sniper
+category: turret

@@ -1,6 +1,6 @@
 type: ItemTurret 
 name: Suppressor
-description: Moderate damage, medium attack speed, medium range.
+description: Fires lots of bullets all around it.
 reload: 85
 shootCone: 360
 rotateSpeed: 0
