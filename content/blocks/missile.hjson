@@ -6,16 +6,14 @@ shootCone: 0.1
 rotateSpeed: 2
 heatColor: ff7f31
 size: 2
-minRange: 105
 range: 1030
-coolantMultiplier: 2.5
 health: 3170
 inaccuracy: 0
 shootSound: explosion
 outlineIcon: false
 maxAmmo: 5
 targetInterval: 21.7
-cooldownTime: 130
+cooldownTime: 100
 ammoTypes: {
   blast-compound: {
     type: BasicBulletType 
@@ -23,7 +21,7 @@ ammoTypes: {
     splashDamageRadius: 37
     splashDamage: 970
     ammoMultiplier: 1
-    reloadMultiplier: 1.7
+    reloadMultiplier: 1.2
     shootEffect: shootSmall 
     speed: 30
     lifetime: 45
@@ -40,8 +38,6 @@ ammoTypes: {
     damage: 1620
     homingPower: 17
     homingRange: 70
-    reloadMultiplier: 0.7
-    ammoMultiplier: 1
     shootEffect: shootBig
     lifetime: 62
     speed: 17

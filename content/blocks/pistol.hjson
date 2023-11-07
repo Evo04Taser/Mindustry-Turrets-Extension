@@ -6,7 +6,6 @@ rotateSpeed: 21
 heatColor: ff7f31
 size: 1
 range: 125
-coolantMultiplier: 2.7
 health: 780
 inaccuracy: 4
 shootSound: shoot
@@ -20,9 +19,9 @@ shootX: 0
 ammoTypes: {
   phase-fabric: {
     type: BasicBulletType 
-    damage: 9
+    damage: 11
     ammoMultiplier: 1
-    reloadMultiplier: 2.3
+    reloadMultiplier: 1.5
     shootEffect: shootSmallSmoke
     speed: 5
     lifetime: 24
@@ -31,7 +30,7 @@ ammoTypes: {
     width: 4
     length: 7
     status: unmoving
-    statusDuration: 70
+    statusDuration: 45
   }
     scrap: {
       type: BasicBulletType
@@ -51,7 +50,6 @@ ammoTypes: {
   copper: {
     type: BasicBulletType
     damage: 16
-    reloadMultiplier: 1
     shootEffect: shootSmall
     speed: 7
     lifetime: 20

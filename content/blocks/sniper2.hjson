@@ -7,7 +7,6 @@ rotateSpeed: 4
 heatColor: ff7f31
 size: 2
 range: 1150
-coolantMultiplier: 2.5
 health: 3170
 inaccuracy: 0
 shootSound: bolt
@@ -19,9 +18,7 @@ shootX: -1
 ammoTypes: {
   scrap: {
     type: BasicBulletType 
-    damage: 1380
-    ammoMultiplier: 1
-    reloadMultiplier: 1
+    damage: 1550
     shootEffect: shootSmall 
     speed: 60
     lifetime: 20
@@ -32,10 +29,10 @@ ammoTypes: {
   }
     blast-compound: {
     type: BasicBulletType
-    damage: 830
+    damage: 875
     splashDamageRadius: 37
-    splashDamage: 190
-    reloadMultiplier: 0.7
+    splashDamage: 470
+    reloadMultiplier: 0.9
     ammoMultiplier: 1
     shootEffect: shootSmall
     lifetime: 20

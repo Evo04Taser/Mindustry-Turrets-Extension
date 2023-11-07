@@ -13,7 +13,7 @@ cooldownTime: 50
 shootX: -1
 shoot: {
   type: ShootSpread
-  spread: 2
+  spread: 1.5
   shots: 42
 }
 inaccuracy: 3
@@ -24,43 +24,36 @@ targetInterval: 0.7
 ammoTypes: {
   copper: {
     type: BasicBulletType 
-    damage: 31
-    ammoMultiplier: 3
-    reloadMultiplier: 1.1
+    damage: 33
     shootEffect: shootSmall 
     speed: 12
-    lifetime: 14
-    pierce: false
+    lifetime: 15
     width: 1
     length: 2
   }
     thorium: {
       type: BasicBulletType
-      damage: 53
-      reloadMultiplier: 0.8
-      ammoMultiplier: 1
+      damage: 57
+      reloadMultiplier: 0.85
       shootEffect: shootBig2
       lifetime: 15
       speed: 19
       pierceCap: 3
       pierceBuildings: true
       pierce: true 
-      armorPiercing: true
       width: 2
       length: 2
   }
   plastanium: {
     type: BasicBulletType
-    damage: 39
+    damage: 41
     pierce: true 
-    armorPiercing: false
     pierceCap: 1
     pierceBuildings: true
-    reloadMultiplier: 1.4
+    reloadMultiplier: 1.2
     shootEffect: shootSmall
     speed: 13
     lifetime: 15
-    ammoMultiplier: 1
     width: 2
     length: 2
   }

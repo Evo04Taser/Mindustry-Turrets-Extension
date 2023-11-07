@@ -1,13 +1,12 @@
 type: ItemTurret 
 name: Sniper
 description: Snipes enemies from very far distances.
-reload: 120
+reload: 150
 shootCone: 0.1
 rotateSpeed: 2
 heatColor: ff7f31
 size: 2
 range: 810
-coolantMultiplier: 2.5
 health: 2730
 inaccuracy: 0
 shootSound: bang
@@ -19,12 +18,9 @@ ammoTypes: {
   silicon: {
     type: BasicBulletType 
     damage: 970
-    ammoMultiplier: 1
-    reloadMultiplier: 1.2
     shootEffect: shootSmall 
     speed: 30
     lifetime: 45
-    pierce: false
     width: 3
     ammoUseEffect: casing2
     length: 7
@@ -32,15 +28,14 @@ ammoTypes: {
     metaglass: {
     type: BasicBulletType
     damage: 1020
-    reloadMultiplier: 0.6
+    reloadMultiplier: 0.75
     ammoMultiplier: 1
     shootEffect: shootBig
     lifetime: 38
     speed: 28
     pierceCap: 2
     pierceBuildings: true
-    pierce: true 
-    armorPiercing: false
+    pierce: true
     width: 3
     length: 8
     ammoUseEffect: casing2
@@ -52,7 +47,6 @@ ammoTypes: {
       damage: 140
       speed: 7
       lifetime: 17
-      armorPiercing: true
       width: 1
       length: 4
      }
@@ -61,10 +55,9 @@ ammoTypes: {
     type: BasicBulletType 
     damage: 1500
     pierce: true 
-    armorPiercing: true
     pierceCap: 1
     pierceBuildings: true
-    reloadMultiplier: 0.8
+    reloadMultiplier: 0.9
     shootEffect: shootBig2 
     speed: 23
     ammoUseEffect: casing2

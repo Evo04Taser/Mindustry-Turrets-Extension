@@ -1,7 +1,7 @@
 type: ItemTurret 
 name: Shotgun 
 description: Fires a cone of bullets.
-reload: 60
+reload: 45
 shootCone: 17
 rotateSpeed: 4
 heatColor: ff7f31
@@ -23,9 +23,7 @@ targetInterval: 0.7
 ammoTypes: {
   copper: {
     type: BasicBulletType 
-    damage: 27
-    ammoMultiplier: 3
-    reloadMultiplier: 1.1
+    damage: 29
     shootEffect: shootSmall 
     speed: 12
     lifetime: 30
@@ -35,9 +33,8 @@ ammoTypes: {
   }
     thorium: {
       type: BasicBulletType
-      damage: 41
-      reloadMultiplier: 0.8
-      ammoMultiplier: 1
+      damage: 44
+      reloadMultiplier: 0.85
       shootEffect: shootBig2
       lifetime: 27
       speed: 19
@@ -50,16 +47,15 @@ ammoTypes: {
   }
   plastanium: {
     type: BasicBulletType
-    damage: 34
+    damage: 36
     pierce: true 
     armorPiercing: false
     pierceCap: 1
     pierceBuildings: true
-    reloadMultiplier: 1.4
+    reloadMultiplier: 1.2
     shootEffect: shootSmall
     speed: 13
     lifetime: 28
-    ammoMultiplier: 1
     width: 2
     length: 9
   }

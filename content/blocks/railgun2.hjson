@@ -7,7 +7,6 @@ rotateSpeed: 2
 heatColor: ff7f31
 size: 2
 range: 850
-coolantMultiplier: 1.5
 health: 4180
 inaccuracy: 0
 shootSound: shootSmite
@@ -21,8 +20,6 @@ ammoTypes: {
     damage: 2780
     splashDamageRadius: 37
     splashDamage: 1200
-    ammoMultiplier: 1
-    reloadMultiplier: 1
     shootEffect: shootBig2
     smokeEffect: shootBigSmoke2
     speed: 120
@@ -40,8 +37,6 @@ ammoTypes: {
     damage: 2450
     splashDamageRadius: 14
     splashDamage: 1170
-    reloadMultiplier: 1
-    ammoMultiplier: 1
     shootEffect: shootBig2
     smokeEffect: shootBigSmoke2
     lifetime: 8
@@ -59,7 +54,7 @@ ammoTypes: {
   }
 }
 consumes: {
-  power: 7.3
+  power: 4.25
 }
 requirements: [
   titanium/650

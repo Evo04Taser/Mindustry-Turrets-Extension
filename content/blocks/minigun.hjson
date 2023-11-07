@@ -1,18 +1,17 @@
 type: ItemTurret 
 name: Minigun 
-description: Fires small bullets at enemies very fast.
-reload: 1.5
+description: Rapidly fires a barrage of small bullets at enemies.
+reload: 2.4
 shootCone: 10
 rotateSpeed: 2
 heatColor: ff7f31
 size: 2
 range: 310
-coolantMultiplier: 3
 health: 2130
 inaccuracy: 0
 shootSound: shootBig
 outlineIcon: false
-maxAmmo: 400
+maxAmmo: 250
 targetInterval: 1.2
 shootX: -1
 recoil: 2
@@ -20,14 +19,13 @@ recoilTime: 40
 ammoTypes: {
   graphite: {
     type: BasicBulletType 
-    damage: 12
-    ammoMultiplier: 80
-    reloadMultiplier: 0.8
+    damage: 17
+    ammoMultiplier: 5
+    reloadMultiplier: 0.85
     shootEffect: shootSmall 
     speed: 17
     lifetime: 35
     ammoUseEffect: casing1
-    pierce: false
     width: 6
     length: 7
   }
@@ -35,30 +33,28 @@ ammoTypes: {
       type: BasicBulletType
       damage: 32
       reloadMultiplier: 0.7
-      ammoMultiplier: 60
+      ammoMultiplier: 5
       shootEffect: shootSmall
       lifetime: 30
       speed: 25
       pierceCap: 4
       pierceBuildings: true
       pierce: true 
-      armorPiercing: true
       width: 3
       ammoUseEffect: casing1
       length: 6
   }
   lead: {
     type: BasicBulletType
-    damage: 10
+    damage: 12
     pierce: true 
     armorPiercing: false
     pierceCap: 4
     pierceBuildings: true
-    reloadMultiplier: 0.8
     shootEffect: shootSmall
     speed: 18
     lifetime: 27
-    ammoMultiplier: 100
+    ammoMultiplier: 5
     width: 5
     ammoUseEffect: casing1
     length: 9

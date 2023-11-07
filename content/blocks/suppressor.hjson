@@ -7,7 +7,6 @@ rotateSpeed: 0
 heatColor: ff7f31
 size: 2
 range: 115
-coolantMultiplier: 2
 health: 1360
 cooldownTime: 70
 inaccuracy: 2
@@ -21,11 +20,9 @@ recoil: 0
 ammoTypes: {
   blast-compound: {
     type: BasicBulletType 
-    damage: 370
-    splashDamage: 400
-    splashDamageRadius: 20
-    ammoMultiplier: 1
-    reloadMultiplier: 1.4
+    damage: 1200
+    splashDamage: 750
+    splashDamageRadius: 35
     shootEffect: blastExplosion
     speed: 0
     lifetime: 1
@@ -40,7 +37,7 @@ ammoTypes: {
     fragBullet: {
       speed: 20
       lifetime: 10
-      damage: 210
+      damage: 275
       width: 2
       length: 7
       status: blasted
@@ -49,33 +46,28 @@ ammoTypes: {
   }
   surge-alloy: {
     type: BasicBulletType
-    damage: 580
-    splashDamage: 630
-    splashDamageRadius: 28
-    reloadMultiplier: 0.9
-    ammoMultiplier: 1
+    damage: 1800
+    splashDamage: 1100
+    splashDamageRadius: 50
+    reloadMultiplier: 0.85
     shootEffect: blastExplosion 
     lifetime: 1
-    speed: 1
-    pierceCap: 3
-    pierceBuildings: true
-    pierce: true 
-    armorPiercing: true
+    speed: 0
     width: 0
     length: 0
     status: shocked
-    statusDuration: 300
+    statusDuration: 180
     fragVelocityMax: 1
     fragVelocityMin: 1
     fragBullets: 100
     fragBullet: {
       speed: 20
       lifetime: 10
-      damage: 470
+      damage: 550
       width: 2
       length: 7
       pierce: true
-      pierceCap: 2
+      pierceCap: 3
       pierceBuildings: true
       status: electrified
       statusDuration: 60

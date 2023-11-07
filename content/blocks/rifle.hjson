@@ -1,13 +1,12 @@
 type: ItemTurret 
 name: Assault Rifle
 description: Fires at enemies.
-reload: 5
+reload: 3.75
 shootCone: 7
 rotateSpeed: 14
 heatColor: ff7f31
 size: 2
 range: 140
-coolantMultiplier: 2.5
 health: 1780
 inaccuracy: 3
 shootSound: shootBig
@@ -21,7 +20,6 @@ ammoTypes: {
   graphite: {
     type: BasicBulletType 
     damage: 21
-    ammoMultiplier: 4
     reloadMultiplier: 0.8
     shootEffect: shootSmall 
     speed: 18
@@ -35,7 +33,6 @@ ammoTypes: {
       type: BasicBulletType
       damage: 37
       reloadMultiplier: 0.7
-      ammoMultiplier: 7
       shootEffect: shootBig
       lifetime: 30
       speed: 23
@@ -54,11 +51,9 @@ ammoTypes: {
     armorPiercing: false
     pierceCap: 4
     pierceBuildings: false
-    reloadMultiplier: 1.1
     shootEffect: shootBig2 
     speed: 12
     lifetime: 27
-    ammoMultiplier: 3
     width: 6
     ammoUseEffect: casing1
     length: 11
