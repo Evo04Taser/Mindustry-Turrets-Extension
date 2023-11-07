@@ -1,7 +1,7 @@
 type: ItemTurret 
 name: Railgun
 description: Fires non-homing missiles at very high speeds.
-reload: 220
+reload: 250
 shootCone: 0.3
 rotateSpeed: 5
 heatColor: ff7f31

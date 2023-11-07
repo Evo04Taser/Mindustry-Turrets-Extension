@@ -1,21 +1,20 @@
 type: ItemTurret 
 name: Shotgun 
 description: Fires a cone of bullets.
-reload: 45
+reload: 50
 shootCone: 17
 rotateSpeed: 4
 heatColor: ff7f31
 size: 2
-range: 85
-coolantMultiplier: 5
+range: 125
 health: 2340
 cooldownTime: 50
 shoot: {
   type: ShootSpread
-  spread: 3
-  shots: 17
+  spread: 2.5
+  shots: 20
 }
-inaccuracy: 2
+inaccuracy: 2.5
 shootSound: shootBig
 outlineIcon: false
 maxAmmo: 30

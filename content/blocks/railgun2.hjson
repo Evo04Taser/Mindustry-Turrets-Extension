@@ -1,19 +1,19 @@
 type: ItemTurret 
-name: Particle Accelerating Cannon
-description: Fires particles at extremely high speeds.
-reload: 300
+name: Electronic Cannon
+description: Fires large spheres at extremely high speeds.
+reload: 375
 shootCone: 2
 rotateSpeed: 2
 heatColor: ff7f31
 size: 2
 range: 850
-health: 4180
+health: 4500
 inaccuracy: 0
 shootSound: shootSmite
 outlineIcon: false
 maxAmmo: 3
 targetInterval: 27
-cooldownTime: 295
+cooldownTime: 325
 ammoTypes: {
   blast-compound: {
     type: BasicBulletType 
@@ -24,11 +24,7 @@ ammoTypes: {
     smokeEffect: shootBigSmoke2
     speed: 120
     lifetime: 8
-    pierce: false
-    width: 5
-    ammoUseEffect: none
-    length: 30
-    sprite: missile-large
+    sprite: circle-bullet
     status: blasted
     statusDuration: 300
   }
@@ -41,11 +37,7 @@ ammoTypes: {
     smokeEffect: shootBigSmoke2
     lifetime: 8
     speed: 120
-    width: 5
-    length: 30
-    pierce: false
-    ammoUseEffect: none
-    sprite: missile-large
+    sprite: circle-bullet
     status: burning
     statusDuration: 750
     incendChance: 1

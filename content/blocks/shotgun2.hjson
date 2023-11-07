@@ -1,30 +1,29 @@
 type: ItemTurret 
 name: Pump Action Shotgun 
 description: Improved Shotgun. Fires slower but deals more damage and fires more bullets at a larger cone.
-reload: 60
+reload: 75
 shootCone: 17
 rotateSpeed: 4
 heatColor: ff7f31
 size: 2
-range: 100
-coolantMultiplier: 5
+range: 125
 health: 2340
 cooldownTime: 50
 shootX: -1
 shoot: {
   type: ShootSpread
-  spread: 1.5
-  shots: 42
+  spread: 0.75
+  shots: 50
 }
-inaccuracy: 3
-shootSound: shootBig
+inaccuracy: 3.5
+shootSound: shotgun
 outlineIcon: false
 maxAmmo: 30
 targetInterval: 0.7
 ammoTypes: {
   copper: {
     type: BasicBulletType 
-    damage: 33
+    damage: 36
     shootEffect: shootSmall 
     speed: 12
     lifetime: 15
@@ -33,7 +32,7 @@ ammoTypes: {
   }
     thorium: {
       type: BasicBulletType
-      damage: 57
+      damage: 60
       reloadMultiplier: 0.85
       shootEffect: shootBig2
       lifetime: 15
@@ -46,7 +45,7 @@ ammoTypes: {
   }
   plastanium: {
     type: BasicBulletType
-    damage: 41
+    damage: 46
     pierce: true 
     pierceCap: 1
     pierceBuildings: true
