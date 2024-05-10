@@ -6,7 +6,7 @@ shootCone: 10
 rotateSpeed: 2
 heatColor: ff7f31
 size: 2
-range: 310
+range: 340
 health: 2870
 inaccuracy: 0
 shootSound: shootBig
@@ -24,7 +24,7 @@ ammoTypes: {
     reloadMultiplier: 0.85
     shootEffect: shootSmall 
     speed: 17
-    lifetime: 35
+    lifetime: 20
     ammoUseEffect: casing1
     pierce: false
     width: 6
@@ -33,10 +33,10 @@ ammoTypes: {
     scrap: {
       type: BasicBulletType
       damage: 42
-      reloadMultiplier: 0.7
+      reloadMultiplier: 0.75
       ammoMultiplier: 10
       shootEffect: shootSmall
-      lifetime: 30
+      lifetime: 13.6
       speed: 25
       pierceCap: 4
       pierceBuildings: true
@@ -54,7 +54,7 @@ ammoTypes: {
     pierceBuildings: true
     shootEffect: shootSmall
     speed: 18
-    lifetime: 27
+    lifetime: 18.8888888888
     ammoMultiplier: 10
     width: 5
     ammoUseEffect: casing1
