@@ -6,7 +6,7 @@ shootCone: 0.1
 rotateSpeed: 2
 heatColor: ff7f31
 size: 2
-range: 1030
+range: 760
 health: 3170
 inaccuracy: 0
 shootSound: explosion
@@ -21,10 +21,10 @@ ammoTypes: {
     splashDamageRadius: 37
     splashDamage: 970
     ammoMultiplier: 1
-    reloadMultiplier: 1.2
+    reloadMultiplier: 1.05
     shootEffect: shootSmall 
     speed: 30
-    lifetime: 45
+    lifetime: 25.33333333333
     pierce: false
     width: 4
     ammoUseEffect: none
@@ -39,7 +39,7 @@ ammoTypes: {
     homingPower: 17
     homingRange: 70
     shootEffect: shootBig
-    lifetime: 62
+    lifetime: 44.70588235294
     speed: 17
     width: 4
     length: 21

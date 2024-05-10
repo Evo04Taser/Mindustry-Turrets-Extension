@@ -6,8 +6,8 @@ shootCone: 2
 rotateSpeed: 2
 heatColor: ff7f31
 size: 2
-range: 850
-health: 4500
+range: 720
+health: 3720
 inaccuracy: 0
 shootSound: shootSmite
 outlineIcon: false
@@ -17,26 +17,26 @@ cooldownTime: 325
 ammoTypes: {
   blast-compound: {
     type: BasicBulletType 
-    damage: 2780
+    damage: 2180
     splashDamageRadius: 37
-    splashDamage: 1200
+    splashDamage: 1400
     shootEffect: shootBig2
     smokeEffect: shootBigSmoke2
-    speed: 120
-    lifetime: 8
+    speed: 85
+    lifetime: 8.47058823529
     sprite: circle-bullet
     status: blasted
     statusDuration: 300
   }
     pyratite: {
     type: BasicBulletType
-    damage: 2450
-    splashDamageRadius: 14
-    splashDamage: 1170
+    damage: 1950
+    splashDamageRadius: 19
+    splashDamage: 1100
     shootEffect: shootBig2
     smokeEffect: shootBigSmoke2
-    lifetime: 8
-    speed: 120
+    lifetime: 8.47058823529
+    speed: 85
     sprite: circle-bullet
     status: burning
     statusDuration: 750
@@ -46,7 +46,7 @@ ammoTypes: {
   }
 }
 consumes: {
-  power: 4.25
+  power: 16
 }
 requirements: [
   titanium/650

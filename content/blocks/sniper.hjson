@@ -6,7 +6,7 @@ shootCone: 0.1
 rotateSpeed: 2
 heatColor: ff7f31
 size: 2
-range: 810
+range: 560
 health: 2730
 inaccuracy: 0
 shootSound: bang
@@ -20,20 +20,20 @@ ammoTypes: {
     damage: 970
     shootEffect: shootSmall 
     speed: 30
-    lifetime: 45
+    lifetime: 18.6666666666
     width: 3
     ammoUseEffect: casing2
     length: 7
   }
     metaglass: {
     type: BasicBulletType
-    damage: 1020
+    damage: 1100
     reloadMultiplier: 0.75
     ammoMultiplier: 1
     shootEffect: shootBig
-    lifetime: 38
-    speed: 28
-    pierceCap: 2
+    lifetime: 21.53846153846
+    speed: 26
+    pierceCap: 3
     pierceBuildings: true
     pierce: true
     width: 3
@@ -44,16 +44,16 @@ ammoTypes: {
     fragBullets: 15
     fragBullet: {
       type: BasicBulletType
-      damage: 140
+      damage: 170
       speed: 7
-      lifetime: 17
+      lifetime: 7.1111111111
       width: 1
       length: 4
      }
   }
   titanium: {
     type: BasicBulletType 
-    damage: 1500
+    damage: 1550
     pierce: true 
     pierceCap: 1
     pierceBuildings: true
@@ -61,7 +61,7 @@ ammoTypes: {
     shootEffect: shootBig2 
     speed: 23
     ammoUseEffect: casing2
-    lifetime: 40
+    lifetime: 24.34782608696
     ammoMultiplier: 2
     width: 3
     length: 11

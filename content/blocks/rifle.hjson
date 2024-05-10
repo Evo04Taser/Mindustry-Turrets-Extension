@@ -6,8 +6,8 @@ shootCone: 7
 rotateSpeed: 14
 heatColor: ff7f31
 size: 2
-range: 140
-health: 1780
+range: 172
+health: 1940
 inaccuracy: 3
 shootSound: shootBig
 outlineIcon: false
@@ -20,10 +20,10 @@ ammoTypes: {
   graphite: {
     type: BasicBulletType 
     damage: 21
-    reloadMultiplier: 0.8
+    reloadMultiplier: 0.85
     shootEffect: shootBig
     speed: 18
-    lifetime: 25
+    lifetime: 9.55555555555
     ammoUseEffect: casing1
     pierce: false
     width: 4
@@ -32,14 +32,13 @@ ammoTypes: {
     scrap: {
       type: BasicBulletType
       damage: 37
-      reloadMultiplier: 0.7
+      reloadMultiplier: 0.75
       shootEffect: shootBig
-      lifetime: 20
+      lifetime: 7.478260869
       speed: 23
       pierceCap: 4
       pierceBuildings: true
       pierce: true 
-      armorPiercing: true
       width: 3
       ammoUseEffect: casing1
       length: 8
@@ -49,12 +48,12 @@ ammoTypes: {
     damage: 18
     pierce: true 
     armorPiercing: false
-    pierceCap: 4
+    pierceCap: 2
     pierceBuildings: false
     shootEffect: shootBig
     speed: 12
-    lifetime: 17
-    width: 6
+    lifetime: 14.3333333333
+    width: 5
     ammoUseEffect: casing1
     length: 11
   }

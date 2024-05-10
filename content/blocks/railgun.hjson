@@ -6,8 +6,8 @@ shootCone: 0.3
 rotateSpeed: 5
 heatColor: ff7f31
 size: 2
-range: 780
-health: 4180
+range: 640
+health: 3560
 inaccuracy: 0
 shootSound: shootSmite
 outlineIcon: false
@@ -20,10 +20,10 @@ ammoTypes: {
     damage: 675
     splashDamageRadius: 45
     splashDamage: 1195
-    reloadMultiplier: 1.2
+    reloadMultiplier: 1.1
     shootEffect: shootSmall 
-    speed: 70
-    lifetime: 25
+    speed: 55
+    lifetime: 11.63636363636
     pierce: false
     width: 6
     ammoUseEffect: none
@@ -34,10 +34,10 @@ ammoTypes: {
   }
     scrap: {
     type: BasicBulletType
-    damage: 2710
+    damage: 2110
     shootEffect: shootSmall
     lifetime: 20
-    speed: 100
+    speed: 9.14285714286
     width: 3
     length: 21
     pierce: true
@@ -48,7 +48,7 @@ ammoTypes: {
   }
 }
 consumes: {
-  power: 2
+  power: 10.5
 }
 requirements: [
   titanium/550

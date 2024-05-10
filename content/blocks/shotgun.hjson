@@ -6,12 +6,12 @@ shootCone: 17
 rotateSpeed: 4
 heatColor: ff7f31
 size: 2
-range: 125
+range: 112
 health: 2340
 cooldownTime: 50
 shoot: {
   type: ShootSpread
-  spread: 2.5
+  spread: 3
   shots: 20
 }
 inaccuracy: 2.5
@@ -25,7 +25,7 @@ ammoTypes: {
     damage: 29
     shootEffect: shootSmall 
     speed: 12
-    lifetime: 30
+    lifetime: 9.3333333333
     pierce: false
     width: 1
     length: 5
@@ -35,7 +35,7 @@ ammoTypes: {
       damage: 44
       reloadMultiplier: 0.85
       shootEffect: shootBig2
-      lifetime: 27
+      lifetime: 5.89473684211
       speed: 19
       pierceCap: 3
       pierceBuildings: true

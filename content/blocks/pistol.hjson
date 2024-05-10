@@ -5,11 +5,11 @@ reload: 13
 rotateSpeed: 21
 heatColor: ff7f31
 size: 1
-range: 125
-health: 780
+range: 124
+health: 710
 inaccuracy: 4
 shootSound: shoot
-shootCone: 10
+shootCone: 9
 outlineIcon: false
 maxAmmo: 15
 targetInterval: 0.7
@@ -19,28 +19,28 @@ shootX: 0
 ammoTypes: {
   phase-fabric: {
     type: BasicBulletType 
-    damage: 11
+    damage: 9
     ammoMultiplier: 1
-    reloadMultiplier: 1.5
+    reloadMultiplier: 1.55
     shootEffect: shootSmallSmoke
-    speed: 5
-    lifetime: 24
+    speed: 6
+    lifetime: 20.66666666666
     ammoUseEffect: none
     pierce: false
     width: 4
     length: 7
     status: unmoving
-    statusDuration: 45
+    statusDuration: 60
   }
     scrap: {
       type: BasicBulletType
       damage: 23
-      reloadMultiplier: 0.7
+      reloadMultiplier: 0.75
       ammoMultiplier: 2
       shootEffect: shootSmall
-      lifetime: 11
+      lifetime: 9.53846153846
       speed: 13
-      pierceCap: 4
+      pierceCap: 3
       pierceBuildings: true
       pierce: true 
       width: 3
@@ -51,8 +51,8 @@ ammoTypes: {
     type: BasicBulletType
     damage: 16
     shootEffect: shootSmall
-    speed: 7
-    lifetime: 20
+    speed: 9
+    lifetime: 13.777777777777
     ammoMultiplier: 2
     width: 6
     ammoUseEffect: casing1

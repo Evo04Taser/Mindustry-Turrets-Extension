@@ -6,7 +6,7 @@ shootCone: 0.1
 rotateSpeed: 4
 heatColor: ff7f31
 size: 2
-range: 1150
+range: 680
 health: 3170
 inaccuracy: 0
 shootSound: bolt
@@ -18,25 +18,27 @@ shootX: -1
 ammoTypes: {
   scrap: {
     type: BasicBulletType 
-    damage: 1550
+    damage: 1900
     shootEffect: shootSmall 
-    speed: 60
-    lifetime: 20
+    speed: 55
+    lifetime: 12.36363636364
+    pierceCap: 6
+    pierceBuildings: true
     pierce: true
     width: 3
     ammoUseEffect: casing2
     length: 7
+    reloadMultiplier: 0.9
   }
     blast-compound: {
     type: BasicBulletType
-    damage: 875
-    splashDamageRadius: 37
-    splashDamage: 470
-    reloadMultiplier: 0.9
+    damage: 805
+    splashDamageRadius: 32
+    splashDamage: 1100
     ammoMultiplier: 1
     shootEffect: shootSmall
-    lifetime: 20
-    speed: 60
+    lifetime: 17
+    speed: 40
     width: 3
     length: 8
     ammoUseEffect: casing2
