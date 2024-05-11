@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Pistol
 description: Fires small bullets at enemies.
-reload: 13
+reload: 15
 rotateSpeed: 21
 heatColor: ff7f31
 size: 1
@@ -21,42 +21,42 @@ ammoTypes: {
     type: BasicBulletType 
     damage: 9
     ammoMultiplier: 1
-    reloadMultiplier: 1.55
+    reloadMultiplier: 1.2
     shootEffect: shootSmallSmoke
     speed: 6
     lifetime: 20.66666666666
     ammoUseEffect: none
     pierce: false
     width: 4
-    length: 7
+    height: 7
     status: unmoving
-    statusDuration: 60
+    statusDuration: 45
   }
-    scrap: {
-      type: BasicBulletType
-      damage: 23
-      reloadMultiplier: 0.75
-      ammoMultiplier: 2
-      shootEffect: shootSmall
-      lifetime: 9.53846153846
-      speed: 13
-      pierceCap: 3
-      pierceBuildings: true
-      pierce: true 
-      width: 3
-      ammoUseEffect: none
-      length: 8
+  graphite: {
+    type: BasicBulletType
+    damage: 27
+    reloadMultiplier: 0.8
+    ammoMultiplier: 2
+    shootEffect: shootSmallSmoke
+    lifetime: 9.53846153846
+    speed: 13
+    pierceCap: 3
+    pierceBuildings: true
+    pierce: true 
+    width: 3
+    ammoUseEffect: none
+    height: 6
   }
   copper: {
     type: BasicBulletType
-    damage: 16
-    shootEffect: shootSmall
+    damage: 17
+    shootEffect: shootSmallSmoke
     speed: 9
     lifetime: 13.777777777777
     ammoMultiplier: 2
-    width: 6
+    width: 3
     ammoUseEffect: casing1
-    length: 10
+    height: 6
   }
 }
 requirements: [

@@ -19,7 +19,7 @@ recoilTime: 40
 ammoTypes: {
   graphite: {
     type: BasicBulletType 
-    damage: 17
+    damage: 23
     ammoMultiplier: 5
     reloadMultiplier: 0.85
     shootEffect: shootSmall 
@@ -27,22 +27,22 @@ ammoTypes: {
     lifetime: 16.47058823529
     ammoUseEffect: casing1
     width: 6
-    length: 7
+    height: 7
   }
-    scrap: {
-      type: BasicBulletType
-      damage: 32
-      reloadMultiplier: 0.75
-      ammoMultiplier: 5
-      shootEffect: shootSmall
-      lifetime: 11.2
-      speed: 25
-      pierceCap: 4
-      pierceBuildings: true
-      pierce: true 
-      width: 3
-      ammoUseEffect: casing1
-      length: 6
+  scrap: {
+    type: BasicBulletType
+    damage: 32
+    reloadMultiplier: 0.75
+    ammoMultiplier: 5
+    shootEffect: shootSmall
+    lifetime: 11.2
+    speed: 25
+    pierceCap: 4
+    pierceBuildings: true
+    pierce: true 
+    width: 3
+    ammoUseEffect: casing1
+    height: 6
   }
   lead: {
     type: BasicBulletType
@@ -57,7 +57,7 @@ ammoTypes: {
     ammoMultiplier: 5
     width: 5
     ammoUseEffect: casing1
-    length: 9
+    height: 9
   }
 }
 requirements: [

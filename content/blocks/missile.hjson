@@ -28,7 +28,7 @@ ammoTypes: {
     pierce: false
     width: 4
     ammoUseEffect: none
-    length: 17
+    height: 17
     sprite: missile
     status: blasted
     statusDuration: 150
@@ -42,7 +42,7 @@ ammoTypes: {
     lifetime: 44.70588235294
     speed: 17
     width: 4
-    length: 21
+    height: 21
     ammoUseEffect: casing2
     sprite: missile
   }

@@ -27,8 +27,9 @@ ammoTypes: {
     pierce: true
     width: 3
     ammoUseEffect: casing2
-    length: 7
+    height: 7
     reloadMultiplier: 0.9
+    ammoMultiplier: 1
   }
     blast-compound: {
     type: BasicBulletType
@@ -40,7 +41,7 @@ ammoTypes: {
     lifetime: 17
     speed: 40
     width: 3
-    length: 8
+    height: 8
     ammoUseEffect: casing2
     status: blasted
     statusDuration: 30

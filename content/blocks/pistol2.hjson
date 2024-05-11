@@ -1,0 +1,54 @@
+type: ItemTurret
+name: Glock
+description: description
+reload: 10
+rotateSpeed: 21
+heatColor: ff7f31
+size: 1
+range: 160
+health: 1020
+inaccuracy: 3
+shootSound: shoot
+shootCone: 5
+outlineIcon: false
+maxAmmo: 24
+targetInterval: 0.7
+recoil: 1
+recoilTime: 5
+shootX: -1
+ammoTypes: {
+  graphite: {
+    type: BasicBulletType
+    damage: 32
+    reloadMultiplier: 0.8
+    ammoMultiplier: 2
+    shootEffect: shootSmallSmoke
+    lifetime: 10
+    speed: 16
+    pierceCap: 3
+    pierceBuildings: true
+    pierce: true 
+    width: 3
+    ammoUseEffect: none
+    height: 6
+  }
+  copper: {
+    type: BasicBulletType
+    damage: 20
+    shootEffect: shootSmallSmoke
+    speed: 10
+    lifetime: 16
+    ammoMultiplier: 2
+    width: 3
+    ammoUseEffect: casing1
+    height: 6
+  }
+}
+requirements: [
+  copper/170
+  lead/60
+  graphite/40
+  silicon/20
+]
+research: pistol
+category: turret

@@ -1,7 +1,7 @@
 type: ItemTurret 
 name: Electronic Cannon
 description: Fires large spheres at extremely high speeds.
-reload: 375
+reload: 300
 shootCone: 2
 rotateSpeed: 2
 heatColor: ff7f31
@@ -11,15 +11,16 @@ health: 3720
 inaccuracy: 0
 shootSound: shootSmite
 outlineIcon: false
-maxAmmo: 3
+maxAmmo: 15
 targetInterval: 27
-cooldownTime: 325
+cooldownTime: 270
+ammoPerShot: 3
+targetAir: false
 ammoTypes: {
   blast-compound: {
     type: BasicBulletType 
-    damage: 2180
-    splashDamageRadius: 37
-    splashDamage: 1400
+    splashDamageRadius: 56
+    splashDamage: 4100
     shootEffect: shootBig2
     smokeEffect: shootBigSmoke2
     speed: 85
@@ -27,12 +28,12 @@ ammoTypes: {
     sprite: circle-bullet
     status: blasted
     statusDuration: 300
+    ammoMultiplier: 1
   }
     pyratite: {
     type: BasicBulletType
-    damage: 1950
-    splashDamageRadius: 19
-    splashDamage: 1100
+    splashDamageRadius: 32
+    splashDamage: 2800
     shootEffect: shootBig2
     smokeEffect: shootBigSmoke2
     lifetime: 8.47058823529
@@ -43,6 +44,7 @@ ammoTypes: {
     incendChance: 1
     incendSpread: 14
     incendAmount: 2.7
+    ammoMultiplier: 1
   }
 }
 consumes: {

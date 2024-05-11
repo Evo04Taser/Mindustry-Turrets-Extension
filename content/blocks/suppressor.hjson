@@ -22,24 +22,25 @@ ammoTypes: {
     type: BasicBulletType 
     damage: 0
     splashDamage: 1400
-    splashDamageRadius: 36
+    splashDamageRadius: 32
     shootEffect: blastExplosion
     speed: 0
     lifetime: 1
     pierce: false
     width: 0
-    length: 0
+    height: 0
     status: melting
     statusDuration: 180
     fragVelocityMax: 1
     fragVelocityMin: 1
     fragBullets: 100
+    ammoMultiplier: 1
     fragBullet: {
       speed: 20
       lifetime: 6.4
       damage: 700
       width: 2
-      length: 7
+      height: 7
       status: blasted
       statusDuration: 60
     }
@@ -47,25 +48,26 @@ ammoTypes: {
   surge-alloy: {
     type: BasicBulletType
     damage: 0
-    splashDamage: 2700
-    splashDamageRadius: 56
+    splashDamage: 2600
+    splashDamageRadius: 48
     reloadMultiplier: 0.85
     shootEffect: blastExplosion 
     lifetime: 1
     speed: 0
     width: 0
-    length: 0
+    height: 0
     status: shocked
     statusDuration: 180
     fragVelocityMax: 1
     fragVelocityMin: 1
     fragBullets: 100
+    ammoMultiplier: 1
     fragBullet: {
       speed: 20
       lifetime: 6.4
       damage: 970
       width: 2
-      length: 9
+      height: 9
       pierce: true
       pierceCap: 3
       pierceBuildings: true

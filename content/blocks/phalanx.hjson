@@ -1,0 +1,44 @@
+type: ItemTurret 
+name: Phalanx CIWS
+description: Fires a barrage of bullets at air targets. Prioritizes enemies with the lowest max health.
+reload: 1
+shootCone: 10
+rotateSpeed: 5
+size: 3
+range: 480
+health: 2400
+inaccuracy: 2
+shootSound: shoot
+outlineIcon: false
+maxAmmo: 180
+targetInterval: 1.2
+shootY: 15
+recoil: 0
+targetGround: false
+unitSort: weakest
+heatColor: ff7f31
+ammoTypes: {
+  titanium: {
+    type: BasicBulletType 
+    damage: 17
+    shootEffect: shootSmall
+    SmokeEffect: shootSmoke
+    speed: 35
+    lifetime: 13.71428571429
+    width: 2
+    height: 5
+    ammoMultiplier: 6
+    pierce: true
+    pierceCap: 3
+  }
+}
+consumes: {
+  power: 3.333333333333
+}
+requirements: [
+  titanium/350
+  silicon/150
+  plastanium/50
+]
+research: scatter
+category: turret

@@ -1,0 +1,51 @@
+type: ItemTurret 
+name: Sea RAM
+description: Fires a single aoe missile at air targets. Prioritizes enemies with the highest max health.
+reload: 180
+shootCone: 10
+rotateSpeed: 2
+size: 3
+range: 800
+health: 4200
+inaccuracy: 0
+shootSound: missileLarge
+outlineIcon: false
+maxAmmo: 100
+targetInterval: 1.2
+shootY: 13
+recoil: 0
+ammoPerShot: 10
+targetGround: false
+unitSort: strongest
+ammoTypes: {
+  titanium: {
+    type: MissileBulletType 
+    damage: 0
+    splashDamage: 4200
+    splashDamageRadius: 56
+    shootEffect: shootBig
+    SmokeEffect: shootSmokeMissile
+    speed: 20
+    lifetime: 44
+    width: 3
+    height: 10
+    homing: true
+    homingPower: 150
+    homingRange: 120
+    ammoMultiplier: 1
+    hitEffect: blastExplosion
+    despawnEffect: blastExplosion
+  }
+}
+consumes: {
+  power: 7
+}
+requirements: [
+  titanium/600
+  thorium/250
+  silicon/350
+  plastanium/200
+  phase-fabric/100
+]
+research: phalanx
+category: turret

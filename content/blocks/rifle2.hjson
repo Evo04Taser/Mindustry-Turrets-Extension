@@ -1,7 +1,7 @@
 type: ItemTurret 
 name: SARLS
 description: Stands for "Silenced Assault Rifle w/ Laser Sight." Has improved accuracy, range and damage.
-reload: 3.5
+reload: 5
 shootCone: 7
 rotateSpeed: 14
 heatColor: ff7f31
@@ -19,7 +19,7 @@ shootY: 15
 ammoTypes: {
   graphite: {
     type: BasicBulletType 
-    damage: 29
+    damage: 33
     reloadMultiplier: 0.85
     shootEffect: shootSmall 
     speed: 18
@@ -27,7 +27,7 @@ ammoTypes: {
     ammoUseEffect: casing1
     pierce: false
     width: 4
-    length: 9
+    height: 9
   }
     scrap: {
       type: BasicBulletType
@@ -41,7 +41,7 @@ ammoTypes: {
       pierce: true 
       width: 3
       ammoUseEffect: casing1
-      length: 8
+      height: 8
   }
   lead: {
     type: BasicBulletType
@@ -54,7 +54,7 @@ ammoTypes: {
     lifetime: 18
     width: 6
     ammoUseEffect: casing1
-    length: 11
+    height: 11
   }
 }
 requirements: [

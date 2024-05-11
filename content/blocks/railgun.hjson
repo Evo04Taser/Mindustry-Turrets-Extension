@@ -27,7 +27,7 @@ ammoTypes: {
     pierce: false
     width: 6
     ammoUseEffect: none
-    length: 14
+    height: 14
     sprite: missile
     status: blasted
     statusDuration: 200
@@ -39,7 +39,7 @@ ammoTypes: {
     lifetime: 20
     speed: 9.14285714286
     width: 3
-    length: 21
+    height: 21
     pierce: true
     pierceBuildings: true
     pierceCap: 7
@@ -48,7 +48,7 @@ ammoTypes: {
   }
 }
 consumes: {
-  power: 10.5
+  power: 12
 }
 requirements: [
   titanium/550

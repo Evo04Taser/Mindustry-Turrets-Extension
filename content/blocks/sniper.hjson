@@ -23,11 +23,12 @@ ammoTypes: {
     lifetime: 18.6666666666
     width: 3
     ammoUseEffect: casing2
-    length: 7
+    height: 7
+    ammoMultiplier: 1
   }
     metaglass: {
     type: BasicBulletType
-    damage: 1100
+    damage: 1200
     reloadMultiplier: 0.75
     ammoMultiplier: 1
     shootEffect: shootBig
@@ -37,34 +38,34 @@ ammoTypes: {
     pierceBuildings: true
     pierce: true
     width: 3
-    length: 8
+    height: 8
     ammoUseEffect: casing2
     fragVelocityMin: 0.2
     fragVelocityMax: 3
     fragBullets: 15
     fragBullet: {
       type: BasicBulletType
-      damage: 170
+      damage: 190
       speed: 7
       lifetime: 7.1111111111
       width: 1
-      length: 4
+      height: 4
      }
   }
   titanium: {
     type: BasicBulletType 
-    damage: 1550
+    damage: 1650
     pierce: true 
-    pierceCap: 1
+    pierceCap: 2
     pierceBuildings: true
     reloadMultiplier: 0.9
     shootEffect: shootBig2 
     speed: 23
     ammoUseEffect: casing2
     lifetime: 24.34782608696
-    ammoMultiplier: 2
+    ammoMultiplier: 1
     width: 3
-    length: 11
+    height: 11
   }
 }
 requirements: [
