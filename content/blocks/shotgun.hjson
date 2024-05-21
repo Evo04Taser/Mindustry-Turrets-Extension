@@ -20,6 +20,11 @@ outlineIcon: false
 maxAmmo: 30
 targetInterval: 0.7
 targetAir: false
+coolantMultiplier: 1.66666666666
+coolant: {
+  type: ConsumeCoolant
+  amount: 0.3
+}
 ammoTypes: {
   copper: {
     type: BasicBulletType 

@@ -16,6 +16,11 @@ targetInterval: 1.2
 recoil: 2
 recoilTime: 15
 shootX: 0
+coolantMultiplier: 2.5
+coolant: {
+  type: ConsumeCoolant
+  amount: 0.2
+}
 ammoTypes: {
   graphite: {
     type: BasicBulletType 

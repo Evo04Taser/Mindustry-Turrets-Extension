@@ -16,11 +16,17 @@ targetInterval: 27
 cooldownTime: 270
 ammoPerShot: 3
 targetAir: false
+coolantMultiplier: 0.416666666
+coolant: {
+  type: ConsumeCoolant
+  amount: 0.9
+}
 ammoTypes: {
   blast-compound: {
     type: BasicBulletType 
+    damage: 0
     splashDamageRadius: 56
-    splashDamage: 4100
+    splashDamage: 4000
     shootEffect: shootBig2
     smokeEffect: shootBigSmoke2
     speed: 85
@@ -29,11 +35,13 @@ ammoTypes: {
     status: blasted
     statusDuration: 300
     ammoMultiplier: 1
+    buildingDamageMultiplier: 0.1
   }
     pyratite: {
     type: BasicBulletType
+    damage: 0
     splashDamageRadius: 32
-    splashDamage: 2800
+    splashDamage: 2700
     shootEffect: shootBig2
     smokeEffect: shootBigSmoke2
     lifetime: 8.47058823529
@@ -45,6 +53,7 @@ ammoTypes: {
     incendSpread: 14
     incendAmount: 2.7
     ammoMultiplier: 1
+    buildingDamageMultiplier: 0.1
   }
 }
 consumes: {

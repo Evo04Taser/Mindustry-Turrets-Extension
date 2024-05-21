@@ -17,6 +17,11 @@ targetInterval: 0.7
 shootX: 0
 shootY: 0
 recoil: 0
+coolantMultiplier: 0.5
+coolant: {
+  type: ConsumeCoolant
+  amount: 0.5
+}
 ammoTypes: {
   blast-compound: {
     type: BasicBulletType 

@@ -16,6 +16,11 @@ targetInterval: 1.2
 shootX: -1
 recoil: 2
 recoilTime: 40
+coolantMultiplier: 0.71428571429
+coolant: {
+  type: ConsumeCoolant
+  amount: 0.35
+}
 ammoTypes: {
   graphite: {
     type: BasicBulletType 
@@ -28,6 +33,7 @@ ammoTypes: {
     ammoUseEffect: casing1
     width: 6
     height: 7
+    buildingDamageMultiplier: 0.2
   }
   scrap: {
     type: BasicBulletType
@@ -43,6 +49,7 @@ ammoTypes: {
     width: 3
     ammoUseEffect: casing1
     height: 6
+    buildingDamageMultiplier: 0.2
   }
   lead: {
     type: BasicBulletType
@@ -58,6 +65,7 @@ ammoTypes: {
     width: 5
     ammoUseEffect: casing1
     height: 9
+    buildingDamageMultiplier: 0.2
   }
 }
 requirements: [

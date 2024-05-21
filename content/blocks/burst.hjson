@@ -1,10 +1,10 @@
 type: ItemTurret 
 name: Burst Rifle
 description: Fires rapidly in spaced intervals.
-reload: 30
+reload: 45
 shoot: {
   shots: 6
-  shotDelay: 2
+  shotDelay: 3
 }
 shootCone: 1
 rotateSpeed: 12
@@ -21,6 +21,11 @@ recoil: 2
 recoilTime: 15
 shootX: 0
 ammoPerShot: 3
+coolantMultiplier: 3.3333333
+coolant: {
+  type: ConsumeCoolant
+  amount: 0.15
+}
 ammoTypes: {
   graphite: {
     type: BasicBulletType 

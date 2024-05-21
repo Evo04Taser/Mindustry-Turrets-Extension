@@ -17,11 +17,16 @@ recoil: 0
 ammoPerShot: 10
 targetGround: false
 unitSort: strongest
+coolantMultiplier: 1
+coolant: {
+  type: ConsumeCoolant
+  amount: 0.5
+}
 ammoTypes: {
   titanium: {
     type: MissileBulletType 
     damage: 0
-    splashDamage: 4200
+    splashDamage: 3900
     splashDamageRadius: 56
     shootEffect: shootBig
     SmokeEffect: shootSmokeMissile
@@ -35,6 +40,29 @@ ammoTypes: {
     ammoMultiplier: 1
     hitEffect: blastExplosion
     despawnEffect: blastExplosion
+    collidesTiles: false
+    collidesGround: false
+  }
+  thorium: {
+    type: MissileBulletType 
+    damage: 0
+    splashDamage: 4600
+    splashDamageRadius: 68
+    shootEffect: shootBig
+    SmokeEffect: shootSmokeMissile
+    speed: 20
+    lifetime: 44
+    width: 4
+    height: 10
+    homing: true
+    reloadMultiplier: 0.75
+    homingPower: 150
+    homingRange: 120
+    ammoMultiplier: 1
+    hitEffect: blastExplosion
+    despawnEffect: blastExplosion
+    collidesTiles: false
+    collidesGround: false
   }
 }
 consumes: {

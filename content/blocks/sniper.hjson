@@ -14,6 +14,11 @@ outlineIcon: false
 maxAmmo: 20
 targetInterval: 21.7
 cooldownTime: 130
+coolantMultiplier: 0.8333333333333
+coolant: {
+  type: ConsumeCoolant
+  amount: 0.6
+}
 ammoTypes: {
   silicon: {
     type: BasicBulletType 
@@ -25,6 +30,7 @@ ammoTypes: {
     ammoUseEffect: casing2
     height: 7
     ammoMultiplier: 1
+    buildingDamageMultiplier: 0.15
   }
     metaglass: {
     type: BasicBulletType
@@ -43,6 +49,7 @@ ammoTypes: {
     fragVelocityMin: 0.2
     fragVelocityMax: 3
     fragBullets: 15
+    buildingDamageMultiplier: 0.15
     fragBullet: {
       type: BasicBulletType
       damage: 190
@@ -54,7 +61,7 @@ ammoTypes: {
   }
   titanium: {
     type: BasicBulletType 
-    damage: 1650
+    damage: 1600
     pierce: true 
     pierceCap: 2
     pierceBuildings: true
@@ -66,6 +73,7 @@ ammoTypes: {
     ammoMultiplier: 1
     width: 3
     height: 11
+    buildingDamageMultiplier: 0.15
   }
 }
 requirements: [

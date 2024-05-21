@@ -15,10 +15,15 @@ maxAmmo: 20
 targetInterval: 21.7
 cooldownTime: 130
 shootX: -1
+coolantMultiplier: 0.75
+coolant: {
+  type: ConsumeCoolant
+  amount: 0.5
+}
 ammoTypes: {
   scrap: {
     type: BasicBulletType 
-    damage: 1900
+    damage: 1920
     shootEffect: shootSmall 
     speed: 55
     lifetime: 12.36363636364
@@ -30,12 +35,13 @@ ammoTypes: {
     height: 7
     reloadMultiplier: 0.9
     ammoMultiplier: 1
+    buildingDamageMultiplier: 0.1
   }
     blast-compound: {
     type: BasicBulletType
-    damage: 805
+    damage: 0
     splashDamageRadius: 32
-    splashDamage: 1100
+    splashDamage: 1570
     ammoMultiplier: 1
     shootEffect: shootSmall
     lifetime: 17
@@ -45,6 +51,7 @@ ammoTypes: {
     ammoUseEffect: casing2
     status: blasted
     statusDuration: 30
+    buildingDamageMultiplier: 0.1
   }
 }
 requirements: [

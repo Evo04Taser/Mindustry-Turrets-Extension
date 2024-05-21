@@ -14,12 +14,17 @@ outlineIcon: false
 maxAmmo: 5
 targetInterval: 27
 cooldownTime: 165
+coolantMultiplier: 0.5
+coolant: {
+  type: ConsumeCoolant
+  amount: 0.75
+}
 ammoTypes: {
   blast-compound: {
     type: BasicBulletType 
-    damage: 675
+    damage: 0
     splashDamageRadius: 45
-    splashDamage: 1195
+    splashDamage: 1840
     reloadMultiplier: 1.1
     shootEffect: shootSmall 
     speed: 55
@@ -31,6 +36,7 @@ ammoTypes: {
     sprite: missile
     status: blasted
     statusDuration: 200
+    buildingDamageMultiplier: 0.1
   }
     scrap: {
     type: BasicBulletType
@@ -45,6 +51,7 @@ ammoTypes: {
     pierceCap: 7
     ammoUseEffect: none
     sprite: missile
+    buildingDamageMultiplier: 0.1
   }
 }
 consumes: {

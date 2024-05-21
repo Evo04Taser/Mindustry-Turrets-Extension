@@ -17,6 +17,11 @@ recoil: 0
 targetGround: false
 unitSort: weakest
 heatColor: ff7f31
+coolantMultiplier: 1.25
+coolant: {
+  type: ConsumeCoolant
+  amount: 0.2
+}
 ammoTypes: {
   titanium: {
     type: BasicBulletType 
@@ -30,6 +35,24 @@ ammoTypes: {
     ammoMultiplier: 6
     pierce: true
     pierceCap: 3
+    collidesTiles: false
+    collidesGround: false
+  }
+  thorium: {
+    type: BasicBulletType 
+    damage: 25
+    shootEffect: shootSmall
+    SmokeEffect: shootSmoke
+    speed: 35
+    lifetime: 13.71428571429
+    width: 3
+    height: 6
+    ammoMultiplier: 6
+    reloadMultiplier: 0.9
+    pierce: true
+    pierceCap: 5
+    collidesTiles: false
+    collidesGround: false
   }
 }
 consumes: {

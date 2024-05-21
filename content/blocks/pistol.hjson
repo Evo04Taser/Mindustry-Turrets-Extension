@@ -16,6 +16,10 @@ targetInterval: 0.7
 recoil: 1
 recoilTime: 5
 shootX: 0
+coolant: {
+  type: ConsumeCoolant
+  amount: 0.1
+}
 ammoTypes: {
   phase-fabric: {
     type: BasicBulletType 
