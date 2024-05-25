@@ -26,7 +26,7 @@ ammoTypes: {
     type: BasicBulletType 
     damage: 0
     splashDamageRadius: 56
-    splashDamage: 4000
+    splashDamage: 3700
     shootEffect: shootBig2
     smokeEffect: shootBigSmoke2
     speed: 85
@@ -41,7 +41,7 @@ ammoTypes: {
     type: BasicBulletType
     damage: 0
     splashDamageRadius: 32
-    splashDamage: 2700
+    splashDamage: 2500
     shootEffect: shootBig2
     smokeEffect: shootBigSmoke2
     lifetime: 8.47058823529
@@ -60,11 +60,11 @@ consumes: {
   power: 16
 }
 requirements: [
-  titanium/650
-  thorium/200
-  silicon/750
-  plastanium/350
-  phase-fabric/500
+  titanium/1100
+  thorium/700
+  silicon/900
+  plastanium/500
+  phase-fabric/400
 ]
 research: railgun
 category: turret

@@ -1,7 +1,7 @@
 type: ItemTurret 
 name: Burst Rifle
 description: Fires rapidly in spaced intervals.
-reload: 45
+reload: 35
 shoot: {
   shots: 6
   shotDelay: 3
@@ -20,7 +20,7 @@ targetInterval: 1.2
 recoil: 2
 recoilTime: 15
 shootX: 0
-ammoPerShot: 3
+consumeAmmoOnce: false
 coolantMultiplier: 3.3333333
 coolant: {
   type: ConsumeCoolant
@@ -29,8 +29,8 @@ coolant: {
 ammoTypes: {
   graphite: {
     type: BasicBulletType 
-    damage: 14
-    reloadMultiplier: 0.85
+    damage: 22
+    reloadMultiplier: 0.9
     shootEffect: shootBig
     speed: 18
     lifetime: 7.666666666
@@ -40,8 +40,8 @@ ammoTypes: {
   }
     scrap: {
       type: BasicBulletType
-      damage: 24
-      reloadMultiplier: 0.75
+      damage: 30
+      reloadMultiplier: 0.8
       shootEffect: shootBig
       lifetime: 6
       speed: 23
@@ -54,7 +54,7 @@ ammoTypes: {
   }
   lead: {
     type: BasicBulletType
-    damage: 8
+    damage: 15
     pierce: true 
     pierceCap: 2
     pierceBuildings: false
@@ -67,9 +67,9 @@ ammoTypes: {
   }
 }
 requirements: [
-  titanium/65
-  silicon/70
-  plastanium/20
+  titanium/100
+  silicon/60
+  plastanium/30
 ]
 research: salvo
 category: turret

@@ -24,21 +24,21 @@ coolant: {
 ammoTypes: {
   graphite: {
     type: BasicBulletType 
-    damage: 23
+    damage: 39
     ammoMultiplier: 5
-    reloadMultiplier: 0.85
+    reloadMultiplier: 0.9
     shootEffect: shootSmall 
     speed: 17
     lifetime: 16.47058823529
     ammoUseEffect: casing1
     width: 6
     height: 7
-    buildingDamageMultiplier: 0.2
+    buildingDamageMultiplier: 0.1
   }
   scrap: {
     type: BasicBulletType
-    damage: 32
-    reloadMultiplier: 0.75
+    damage: 48
+    reloadMultiplier: 0.8
     ammoMultiplier: 5
     shootEffect: shootSmall
     lifetime: 11.2
@@ -49,11 +49,11 @@ ammoTypes: {
     width: 3
     ammoUseEffect: casing1
     height: 6
-    buildingDamageMultiplier: 0.2
+    buildingDamageMultiplier: 0.1
   }
   lead: {
     type: BasicBulletType
-    damage: 12
+    damage: 31
     pierce: true 
     armorPiercing: false
     pierceCap: 2
@@ -65,14 +65,15 @@ ammoTypes: {
     width: 5
     ammoUseEffect: casing1
     height: 9
-    buildingDamageMultiplier: 0.2
+    buildingDamageMultiplier: 0.1
   }
 }
 requirements: [
-  titanium/500
-  thorium/350
-  silicon/250
+  titanium/900
+  thorium/450
+  silicon/300
   plastanium/200
+  phase-fabric/150
 ]
 research: rifle
 category: turret

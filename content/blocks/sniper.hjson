@@ -35,7 +35,7 @@ ammoTypes: {
     metaglass: {
     type: BasicBulletType
     damage: 1200
-    reloadMultiplier: 0.75
+    reloadMultiplier: 0.8
     ammoMultiplier: 1
     shootEffect: shootBig
     lifetime: 21.53846153846

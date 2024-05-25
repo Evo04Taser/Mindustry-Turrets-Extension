@@ -58,10 +58,10 @@ consumes: {
   power: 12
 }
 requirements: [
-  titanium/550
+  titanium/900
   silicon/700
-  plastanium/250
-  phase-fabric/450
+  plastanium/300
+  phase-fabric/300
 ]
 research: foreshadow
 category: turret

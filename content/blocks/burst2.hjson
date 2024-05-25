@@ -1,73 +1,77 @@
 type: ItemTurret 
-name: SARLS
-description: Stands for "Silenced Assault Rifle w/ Laser Sight." Has improved accuracy, range and damage.
-reload: 5
-shootCone: 7
-rotateSpeed: 14
+name: MBBR
+description: Stands for "Muzzle Braked Burst Rifle." Has improved accuracy, range, and damage.
+reload: 30
+shoot: {
+  shots: 4
+  shotDelay: 3
+}
+shootCone: 1
+rotateSpeed: 12
 heatColor: ff7f31
 size: 3
-range: 216
-health: 2400
-inaccuracy: 1
-shootSound: shoot
+range: 176
+health: 2320
+inaccuracy: 3
+shootSound: shootBig
 outlineIcon: false
 maxAmmo: 30
 targetInterval: 1.2
 recoil: 1
 recoilTime: 15
-shootY: 15
-coolantMultiplier: 2.5
+shootX: -1
+shootY: 14
+consumeAmmoOnce: false
+coolantMultiplier: 3.3333333
 coolant: {
   type: ConsumeCoolant
-  amount: 0.2
+  amount: 0.15
 }
 ammoTypes: {
   graphite: {
     type: BasicBulletType 
-    damage: 76
+    damage: 26
     reloadMultiplier: 0.9
-    shootEffect: shootSmall 
+    shootEffect: shootSmall
     speed: 18
-    lifetime: 12
+    lifetime: 9.77777777777777
     ammoUseEffect: casing1
-    pierce: false
     width: 4
     height: 9
   }
     scrap: {
       type: BasicBulletType
-      damage: 103
+      damage: 35
       reloadMultiplier: 0.8
       shootEffect: shootSmall
-      lifetime: 9.39130434783
+      lifetime: 7.65217391304
       speed: 23
       pierceCap: 4
       pierceBuildings: true
-      pierce: true 
+      pierce: true
       width: 3
       ammoUseEffect: casing1
       height: 8
   }
   lead: {
     type: BasicBulletType
-    damage: 63
+    damage: 18
     pierce: true 
     pierceCap: 2
     pierceBuildings: false
     shootEffect: shootSmall
     speed: 12
-    lifetime: 18
+    lifetime: 14.6666666666
     width: 6
     ammoUseEffect: casing1
     height: 11
   }
 }
 requirements: [
-  titanium/700
-  thorium/350
-  silicon/350
-  plastanium/300
-  phase-fabric/200
+  titanium/270
+  thorium/100
+  silicon/130
+  plastanium/60
 ]
-research: rifle
+research: burst
 category: turret

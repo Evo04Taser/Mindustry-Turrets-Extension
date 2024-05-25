@@ -9,7 +9,7 @@ size: 2
 range: 760
 health: 3170
 inaccuracy: 0
-shootSound: explosion
+shootSound: missileLarge
 outlineIcon: false
 maxAmmo: 5
 targetInterval: 21.7
@@ -26,7 +26,7 @@ ammoTypes: {
     splashDamageRadius: 37
     splashDamage: 1200
     ammoMultiplier: 1
-    reloadMultiplier: 1.05
+    reloadMultiplier: 1.1
     shootEffect: shootSmall 
     speed: 30
     lifetime: 25.33333333333

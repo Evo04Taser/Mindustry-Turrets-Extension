@@ -24,9 +24,9 @@ coolant: {
 ammoTypes: {
   graphite: {
     type: BasicBulletType 
-    damage: 35
+    damage: 51
     ammoMultiplier: 8
-    reloadMultiplier: 0.85
+    reloadMultiplier: 0.9
     shootEffect: shootSmall 
     speed: 17
     lifetime: 20
@@ -38,8 +38,8 @@ ammoTypes: {
   }
   scrap: {
     type: BasicBulletType
-    damage: 42
-    reloadMultiplier: 0.75
+    damage: 63
+    reloadMultiplier: 0.8
     ammoMultiplier: 8
     shootEffect: shootSmall
     lifetime: 13.6
@@ -54,7 +54,7 @@ ammoTypes: {
   }
   lead: {
     type: BasicBulletType
-    damage: 20
+    damage: 43
     pierce: true 
     armorPiercing: false
     pierceCap: 2
@@ -70,10 +70,11 @@ ammoTypes: {
   }
 }
 requirements: [
-  titanium/700
-  thorium/400
-  silicon/300
-  plastanium/250
+  titanium/1300
+  thorium/700
+  silicon/500
+  plastanium/400
+  phase-fabric/200
 ]
 research: minigun
 category: turret
