@@ -18,75 +18,110 @@ shootX: 0
 shootY: 0
 recoil: 0
 coolantMultiplier: 0.5
+ammoPerShot: 3
 coolant: {
   type: ConsumeCoolant
   amount: 0.5
 }
 ammoTypes: {
-  blast-compound: {
+  pyratite: {
     type: BasicBulletType 
     damage: 0
-    splashDamage: 1400
-    splashDamageRadius: 32
-    shootEffect: blastExplosion
+    splashDamage: 1600
+    splashDamageRadius: 40
     speed: 0
     lifetime: 1
     pierce: false
     width: 0
     height: 0
-    status: melting
-    statusDuration: 180
     fragVelocityMax: 1
     fragVelocityMin: 1
-    fragBullets: 100
+    fragBullets: 75
     ammoMultiplier: 1
+    shootEffect: blastExplosion
     fragBullet: {
       speed: 20
       lifetime: 6.4
-      damage: 700
+      damage: 150
+      splashDamage: 250
+      splashDamageRadius: 16
+      width: 2
+      height: 7
+      status: burning
+      statusDuration: 120
+      hitEffect: fireHit
+      despawnEffect: blastExplosion
+      makeFire: true
+    }
+  }
+  blast-compound: {
+    type: BasicBulletType 
+    damage: 0
+    splashDamage: 2700
+    splashDamageRadius: 56
+    speed: 0
+    lifetime: 1
+    pierce: false
+    width: 0
+    height: 0
+    fragVelocityMax: 1
+    fragVelocityMin: 1
+    fragBullets: 75
+    ammoMultiplier: 1
+    shootEffect: blastExplosion
+    fragBullet: {
+      speed: 20
+      lifetime: 6.4
+      damage: 200
+      splashDamage: 400
+      splashDamageRadius: 20
       width: 2
       height: 7
       status: blasted
       statusDuration: 60
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
     }
   }
   surge-alloy: {
     type: BasicBulletType
     damage: 0
-    splashDamage: 2600
-    splashDamageRadius: 48
-    reloadMultiplier: 0.85
+    reloadMultiplier: 0.9
     shootEffect: blastExplosion 
     lifetime: 1
     speed: 0
     width: 0
     height: 0
-    status: shocked
-    statusDuration: 180
     fragVelocityMax: 1
     fragVelocityMin: 1
-    fragBullets: 100
+    fragBullets: 75
     ammoMultiplier: 1
+    lightning: 20
+    lightningDamage: 175
+    lightningLength: 8
     fragBullet: {
       speed: 20
       lifetime: 6.4
-      damage: 970
+      damage: 300
+      lightning: 5
+      lightningDamage: 120
+      lightningLength: 4
       width: 2
       height: 9
       pierce: true
       pierceCap: 3
       pierceBuildings: true
-      status: electrified
+      status: shocked
       statusDuration: 60
     }
   }
 }
 requirements: [
-  titanium/150
-  copper/400
-  silicon/150
-  plastanium/50
-  thorium/100
+  titanium/900
+  copper/500
+  silicon/700
+  plastanium/450
+  thorium/200
 ]
 research: shotgun
 category: turret

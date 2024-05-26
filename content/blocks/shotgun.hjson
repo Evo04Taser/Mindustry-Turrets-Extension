@@ -28,7 +28,7 @@ coolant: {
 ammoTypes: {
   copper: {
     type: BasicBulletType 
-    damage: 31
+    damage: 38
     shootEffect: shootSmall 
     speed: 12
     lifetime: 8.66666666667
@@ -39,7 +39,7 @@ ammoTypes: {
   }
   thorium: {
     type: BasicBulletType
-    damage: 47
+    damage: 59
     reloadMultiplier: 0.85
     shootEffect: shootBig2
     lifetime: 5.47368421053
@@ -54,7 +54,7 @@ ammoTypes: {
   }
   plastanium: {
     type: BasicBulletType
-    damage: 40
+    damage: 47
     pierce: true 
     armorPiercing: false
     pierceCap: 1

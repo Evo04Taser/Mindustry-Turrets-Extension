@@ -30,7 +30,7 @@ coolant: {
 ammoTypes: {
   graphite: {
     type: BasicBulletType 
-    damage: 26
+    damage: 29
     reloadMultiplier: 0.9
     shootEffect: shootSmall
     speed: 18
@@ -41,7 +41,7 @@ ammoTypes: {
   }
     scrap: {
       type: BasicBulletType
-      damage: 35
+      damage: 38
       reloadMultiplier: 0.8
       shootEffect: shootSmall
       lifetime: 7.65217391304
@@ -55,7 +55,7 @@ ammoTypes: {
   }
   lead: {
     type: BasicBulletType
-    damage: 18
+    damage: 20
     pierce: true 
     pierceCap: 2
     pierceBuildings: false
